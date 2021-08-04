@@ -1,0 +1,88 @@
+/****************** PROJETOS *******************/
+.container-projetos{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+.projeto{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Chettan 2', sans-serif;
+    border-bottom: .1em solid #ffffff33;
+}
+
+.projeto-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.projeto-img img{
+    width: 50%;
+    height: 80%;
+    position: relative;
+    left: 15%;
+    border-radius: 20px;
+}
+.projeto-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projeto-linguagens{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    margin-top: .5em;
+}
+.projeto-text h1{
+    color: #ffffff;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    margin-top: .5em;
+}
+.projeto-text h3{
+    color: white;
+    font-weight: 200;
+    font-size: 1em;
+    margin-top: 1em;
+}
+.js{
+    color: #F0DB4F;
+}
+.html{
+    color: #e34c26;
+}
+.css{
+    color: #264de4;
+}
+.projeto-site{
+    margin-top: .5em;
+}
+.projeto-site a{
+    color: white;
+}
+.projeto-site a:hover{
+    color: #325bcc;
+}
+
+@media(max-width: 800px){
+    .projeto-text h1{
+        font-size: 1em;
+    }
+    .projeto h3{
+        display: none;
+    }
+}
+@media(max-height: 680px){
+    .projeto-text h3{
+        margin-top: 0;
+    }
+}
