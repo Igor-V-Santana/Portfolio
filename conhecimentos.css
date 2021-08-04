@@ -75,9 +75,13 @@ background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
     }
     .icons i{
         margin-top: .5em;
+        
     }
     .icons:hover{
-        display: none;
+        transform: translateX(0);
+        opacity: 40%;
+        font-size: 0.6em;
+        
     }
     .icons span{
         display: none;
