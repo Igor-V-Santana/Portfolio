@@ -73,11 +73,16 @@ background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
     color: #325bcc;
 }
 
-@media(max-width: 427px){
+@media(max-width: 800px){
     .projeto-text h1{
         font-size: 1em;
     }
     .projeto h3{
         display: none;
+    }
+}
+@media(max-height: 680px){
+    .projeto-text h3{
+        margin-top: 0;
     }
 }
